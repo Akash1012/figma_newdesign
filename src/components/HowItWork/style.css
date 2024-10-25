@@ -1,0 +1,42 @@
+.how-it-work {
+  .why-app {
+    text-align: center;
+    .why {
+      text-transform: uppercase;
+      color: #748fb5;
+      font-weight: 800;
+      font-family: Inter;
+      font-size: 12px;
+    }
+    .tag_line {
+      font-weight: Poppins;
+      font-weight: 600;
+      font-size: 40px;
+    }
+  }
+  .work-steps {
+    display: flex;
+    justify-content: center;
+
+    .steps {
+      width: 180px;
+      height: 148px;
+      text-align: center;
+      .img {
+        margin-bottom: 10px;
+      }
+      button {
+        width: 57px;
+        height: 28px;
+        background-color: #748fb5;
+        font-size: 12px;
+      }
+    }
+    .border-right {
+      width: 4px;
+      height: 131px;
+      background-color: #748fb5;
+      opacity: 0.15;
+    }
+  }
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
+import HowItWork from "./components/HowItWork";
+import TestimonialGallery from "./components/TestimonialGallery";
+// https://www.figma.com/design/i1F6PQykJIogzAhrbc4b62/Test?node-id=1-2677&node-type=frame&t=51JCY42NuCwksHbc-0
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <HeroSection />
+      <HowItWork />
+      <TestimonialGallery />
     </div>
   );
 }

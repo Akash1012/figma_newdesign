@@ -1,0 +1,37 @@
+.main-section {
+  text-align: center;
+  margin-top: 5%;
+
+  font-family: Inter;
+  .ready-to-use-text {
+    color: #748fb5;
+    font-weight: 800;
+    font-size: 12px;
+    font-family: Inter;
+    text-transform: uppercase;
+  }
+  .download-app-text {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 10px;
+  }
+  .accept-text {
+    color: #748fb5;
+    font-size: 16px;
+  }
+  .term-of-use-text {
+    color: #ff5530;
+    font-size: 16px;
+  }
+  .get-solo {
+    width: 115px;
+    height: 56px;
+    background-color: #ff5530;
+    padding: 16px 24px 16px 24px;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
